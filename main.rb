@@ -8,5 +8,5 @@ plans = [
 
 plans_menu(plans)
 selected_plan = select_plan(plans)
-decided_people = decide_people(selected_plan)
-fee_calculation(selected_plan,decided_people)
+decide_count_people = decide_how_many_people(selected_plan)
+fee_calculation(selected_plan,decide_count_people)
